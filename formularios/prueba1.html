@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Prueba1</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<form action="enviarDatos.html" method="post">
+			
+			<p>Describete</p>
+			<textarea name="nombreTextarearea"rows="4"cols="15"></textarea>
+			
+			<p>Dime tu nombre de usuario</p>
+			<input name="nombreUsuario" type="text" value="" size="20" maxlength="15">
+			
+			<p>Escriba la contraseña</p>
+			<input name="contraseña" type="password" value="" size="20" maxlength="15">
+			
+			
+			
+			<p>Dime tu que color prefieres</p>
+			<input name="casilla" type="checkbox" value="rojo" checked> Rojo
+			<input name="casilla" type="checkbox" value="azul"> Azul
+			
+			<p>Dime que prefieres</p>
+			 <input name="prefiere" type="radio" value="estudiar" checked> Estudiar    
+			 <input name="prefiere" type="radio" value="trabajar">Trabajar
+			 
+			 <p>Dime que provincia prefieres</p>
+			 <select size="1" name="provincia">
+				<option selected>Jaen</option>
+				<option>Malaga</option>
+				<option>Cordoba</option>
+				<option>Granada</option>
+				<option>Sevilla</option>
+				<option>Almeria</option>
+				<option>Huelva</option>
+				<option>Cadiz</option>
+			 </select><br><br><br>
+			 <input name="boton" type="reset" value="reset">
+			 <input name="boton" type="submit" value="Enviar"> 
+		</form>
+	</body>
+</html>

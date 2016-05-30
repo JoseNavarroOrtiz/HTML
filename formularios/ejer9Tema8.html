@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <style>
+            body{
+                background-color:brown;
+                
+                }
+            h1{
+                text-align:center;
+                }
+            p{
+                text-align:center;
+                color:orange;
+            }
+           
+            img{
+                margin-left:550px;
+            }
+            div{
+           
+            margin:100px; 
+           
+           
+            background-color:beige;
+            }
+        </style>
+    </head>
+    <body>
+    <div>
+        <h1><span style="color:white">Encuestas-Preferencias de usuarios</span></h1>
+        <p><b>Este test ha sido desarrollado a mode de<span style="color:yellow"> ejemplo </span>por el alumno Jose Navarro de 1ºde DAW</b></p>
+        <hr>
+      
+       
+        <p style="text-align:center"><b>Pregunta 1:</b>Cual de las siguientes imagenes te gusta mas?</p>
+       <table>
+             <tr>
+              <td>
+                <form action="procesandoDatos.html">
+                    <label for="hamburguesa"><img src="imagenesLM/hamburguesa.jpg" width="175 px" height="100 px"></img></label>
+                    <input type="radio" name="sex" id="hamburguesa" value="hamburguesa"><br>
+                 </td>
+             </tr>
+             <tr>
+              <td>
+                    <label for="bicicleta"><img src="imagenesLM/bicicleta.jpg" width="175 px" height="100 px"></img></label>
+                    <input type="radio" name="sex" id="bicicleta" value="bicicleta"><br>
+                  </td>
+             </tr>  
+               </table>
+                    <p style="text-align:center"><b>Pregunta 2:</b>Indica que lugares prefieres para descansar</p>
+                 
+                    <table  style="padding-left:40%">
+                        <tr>
+                            <td><input name="clave"type="checkbox"size="35"maxlength="30"value=""></td>
+                            <td>Playa</td>
+                        </tr>
+                        <tr>
+                            <td><input name="clave"type="checkbox"size="35"maxlength="30"value=""></td>
+                            <td>Campo</td>
+                        </tr>
+                        <tr>
+                            <td><input name="clave"type="checkbox"size="35"maxlength="30"value=""></td>
+                            <td>Montaña</td>
+                        </tr>
+                    </table>
+                    <p style="text-align:center"><b>Pregunta 3:</b>Introduzca su nombre y apellidos</p>
+                    <table  style="padding-left:40%">
+                        <tr>
+                            <td>Nombre</td>
+                            <td><input name="clave"type="text"size="35"maxlength="30"value=""></td>
+                        </tr>
+                        <tr>
+                            <td>Apellidos</td>
+                            <td><input name="clave"type="text"size="35"maxlength="30"value=""></td>
+                        </tr>
+                    </table>
+                    <p style="text-align:center"><b>Pregunta 4:</b>Ciudad de origen</p>
+                    <table  style="padding-left:40%">
+                        <tr>
+                            <td>Ciudad</td>
+                            <td><select name="opinion"size="1">
+                                    <option selected>Ubeda</option>
+                                    <option>Malaga</option>
+                                    <option>Almeria</option>
+                                    <option>Granada</option>
+                                </select></td>
+                        </tr>
+                    </table>
+                    <table style="padding-left:40%">
+                    <tr>
+                    <td>
+                    <input name="clave"type="submit"size="35"maxlength="30"value="Enviar cuestionario" >
+                </td>
+                </tr>
+                </table> 
+                </form>
+        </div>
+    </body>
+</html>
